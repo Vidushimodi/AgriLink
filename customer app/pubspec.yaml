@@ -1,0 +1,30 @@
+name: basic_app
+description: "A simple Flutter customer app."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  geolocator: ^8.2.0
+  google_maps_flutter: ^2.1.1
+  shared_preferences: ^2.0.7
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tomato.jpg
+    - assets/potato.jpg
+    - assets/wheat.jpg
+    - assets/carrot.jpg
+    - assets/login_logo.jpg
+
